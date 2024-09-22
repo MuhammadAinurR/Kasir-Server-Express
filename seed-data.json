@@ -1,0 +1,48 @@
+{
+    "companies": [
+        {
+            "name": "Company A",
+            "address": "123 Main St, City A",
+            "phone_number": "123-456-7890"
+        },
+        {
+            "name": "Company B",
+            "address": "456 Elm St, City B",
+            "phone_number": "987-654-3210"
+        }
+    ],
+    "outlets": [
+        {
+            "company_id": 1,
+            "name": "Outlet AA",
+            "address": "789 Oak St, City A",
+            "phone_number": "111-222-3333"
+        },
+        {
+            "company_id": 2,
+            "name": "Outlet BB",
+            "address": "321 Pine St, City B",
+            "phone_number": "444-555-6666"
+        }
+    ],
+    "products": [
+        {
+            "name": "Espresso",
+            "description": "Strong coffee",
+            "price": 2.5,
+            "company_id": 1
+        },
+        {
+            "name": "Americano",
+            "description": "Diluted espresso",
+            "price": 3.0,
+            "company_id": 1
+        },
+        {
+            "name": "Latte",
+            "description": "Espresso with milk",
+            "price": 3.5,
+            "company_id": 2
+        }
+    ]
+}
