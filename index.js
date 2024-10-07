@@ -1,7 +1,7 @@
 const { Product, Payment, Order, OrderItem } = require("./models");
 const express = require("express");
 const app = express();
-const port = 80;
+const port = 3000;
 
 app.use(express.json());
 
