@@ -5,11 +5,7 @@ const port = 80;
 
 app.use(express.json());
 
-app.get("/", (req, res) => {
-    res.status(200).send({
-        message: "app initialization",
-    });
-});
+app.get("/", mainController.test);
 
 app.post("/order", async (req, res) => {
     const { outlet_id, items } = req.body;
